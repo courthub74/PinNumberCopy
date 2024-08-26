@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    color: #fff;
+}
+
+
+/* The Form */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border: none;
+    width: 100%;
+}
+
+
+/* The Input Field */
+.input_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 1.5rem;
+    /* background-color: blue; */
+    /* max-width: 50%; */
+}
+
+/* The Name Inputs */
+.input_div input {
+    padding: 1em 5em;
+    background-color: black;
+    border: 2px solid white;
+}
+
+/* Pin Field */
+.pin_field {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1em;
+}
+
+.pin_field input {
+    width: 15px;
+    font-size: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    outline: none;
+    transition: all 0.1s;
+    color: #fff;
+}
+
+.pin_field input:focus {
+    border: 2px solid blue;
+    box-shadow: 0 0 2px 2px blue;
+}
+
+/* Submit Button */
+.submit_button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 1em 9.5em;
+    background-color: rgb(82, 82, 82);
+    border: none;
+}
+
+/* Registration */
+a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
