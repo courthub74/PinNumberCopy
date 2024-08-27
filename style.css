@@ -1,3 +1,5 @@
+/* NITE MODE */
+
 body {
     margin: 0;
     font-family:'Courier New', Courier, monospace;
@@ -5,9 +7,39 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 3em;
     background-color: black;
     height: 100vh;
     color: #fff;
+}
+
+/* NavBar */
+nav {
+    width: 100%;
+    /* display: flex;
+    justify-content: right;
+    align-items: center; */
+    background-color: blue;
+    /* margin: 0 30em 0 0; */
+}
+
+.day_mode {
+    background-color: white;
+}
+
+.screen_mode {
+    /* width: 3em; */
+    background-color: black;
+    border: 1px solid white;
+}
+
+
+/* Header */
+header {
+    p {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
 }
 
 
@@ -17,7 +49,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 3em;
     border: none;
     width: 100%;
 }
@@ -28,10 +60,8 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     font-size: 1.5rem;
-    /* background-color: blue; */
-    /* max-width: 50%; */
+    gap: .5em;
 }
 
 /* The Name Inputs */
@@ -45,7 +75,7 @@ form {
 .pin_field {
     display: flex;
     /* flex-direction: column; */
-    gap: 1em;
+    gap: 1.2em;
 }
 
 .pin_field input {
@@ -73,13 +103,19 @@ form {
     align-items: center;
 }
 
-button {
+.submit_ {
     padding: 1em 9.5em;
     background-color: rgb(82, 82, 82);
+    background-color: #393636;
     border: none;
+    font-weight: bold;
+    font-size: .9rem;
+    margin-top: 1em;
+    cursor: pointer;
 }
 
 /* Registration */
+
 a {
     font-size: 1rem;
     color: white;

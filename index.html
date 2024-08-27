@@ -9,24 +9,35 @@
 </head>
 <body>
 
-    <nav></nav>
+    <nav>
+        <button class="day_mode">Day</button>
+        <!-- <div class="nav_button">
+            <button class="screen_mode">
+                <img src="./img/day_mode.png" id="day_mode" alt="day_mode">
+            </button>
+        </div> -->
+    </nav>
+
+    <header>
+        <p>Time Clock</p>
+    </header>
 
     <form action="#">
         <!-- First Name -->
          <div class="input_div">
-            <p>Firstname:</p>
+            <label>Firstname:</label>
             <input type="text" id="firstname">
          </div>
 
         <!-- Last Name -->
         <div class="input_div">
-            <p>Lastname:</p>
+            <label>Lastname:</label>
             <input type="text" id="lastname">
          </div>
 
         <!-- Pin Number -->
         <div class="input_div">
-            <p>Pin #:</p>
+            <label>Pin #:</label>
             <div class="pin_field">
                 <input type="text" maxlength="1" />
                 <input type="text" maxlength="1" />
@@ -39,11 +50,11 @@
         
         <!-- Submit Button -->
         <div class="submit_button">
-            <button>Submit</button>
+            <button class="submit_">Submit</button>
         </div>
        
         <!-- Registration -->
-         <div class="input_div">
+         <div class="registration_div">
             <a href="#">Click HERE to create your ACCOUNT</a>
          </div>
 
