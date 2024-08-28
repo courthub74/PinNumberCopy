@@ -16,21 +16,22 @@ body {
 /* NavBar */
 nav {
     width: 100%;
-    /* display: flex;
+    display: flex;
     justify-content: right;
-    align-items: center; */
-    background-color: blue;
-    /* margin: 0 30em 0 0; */
-}
-
-.day_mode {
-    background-color: white;
+    align-items: center;
+    /* background-color: blue; */
+    margin: 0 50px 0 0;
 }
 
 .screen_mode {
-    /* width: 3em; */
+    cursor: pointer;
     background-color: black;
-    border: 1px solid white;
+    border: none;
+}
+
+#day_mode {
+    width: 3em;
+    height: 3em;
 }
 
 
